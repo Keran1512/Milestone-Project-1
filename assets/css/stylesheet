@@ -1,11 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+/* Header */
+
 header {
-    background color: light green;
+    background-color: lightgreen;
+    padding: 0 1rem;
 }
 
+/* Main Content */
 body {
-    background color: light yellow;
+    background-color:  lightgoldenrodyellow;
 }
 
+/* Footer */
 footer {
     background-color: blueviolet;
 }
+
