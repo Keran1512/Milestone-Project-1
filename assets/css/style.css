@@ -16,17 +16,11 @@ body {
 
 /* Footer */
 footer {
-    background-color: blueviolet;
+    background-color: lightgreen;
 }
 
-/*  Hero section*/
-
-.hero section { 
-    50% no-repeat;
-    background size:cover;
-    height:60vh;
-    text-align:center;
-    display:flex;
-
-
+/*  Small header*/
+.smallHeader {
+    width: 100%;
+    height: auto;
 }
