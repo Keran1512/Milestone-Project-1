@@ -10,3 +10,4 @@ Photo by Thirdman  <a href= "https://www.pexels.com/photo/a-woman-playing-with-h
 Photo by Tima Miroshnichenko <a href= "https://www.pexels.com/photo/drying-of-dog-with-a-towel-6131162/">Pexel</a>
 Photo by <a href="https://stockcake.com/i/poodle-at-groomer_1471026_964302?signup=true">Stockcake</a>
 Photo by <a href="https://stockcake.com/i/modern-pet-haven_1502414_1169402">Stockcake</a>
+Photo by <a href="https://stockcake.com/i/puppy-playtime-outdoors_1153307_904412">Stockcake</a>
