@@ -19,3 +19,14 @@ footer {
     background-color: blueviolet;
 }
 
+/*  Hero section*/
+
+.hero section { 
+    50% no-repeat;
+    background size:cover;
+    height:60vh;
+    text-align:center;
+    display:flex;
+
+
+}
