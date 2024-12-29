@@ -40,6 +40,7 @@ body {
 .form-large  
 
 /* Footer */
-footer {
-    background-color: lightgreen;
+.footer {
+    background-color: lightgrey;
 }
+

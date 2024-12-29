@@ -15,6 +15,11 @@
     
     <!--Custom style CSS sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -84,8 +89,8 @@
         <button class="btn btn-primary" type="button">Contact Us</button>
         
       </div>
-    <!--Portfolio section-->
-<section id="portfolio" class="container pb-4">
+    <!--Services overview section-->
+<section id="services-overview" class="container pb-4">
 <div class="row">
 
   <div class="col-12 text-center my-4 sharp-corners">
@@ -118,7 +123,7 @@
 
       <div class="col-12 col-md-6">
       <div class="card mb-3 sharp corners">
-      <img src="assets/pexels-thirdman-8942936.jpg" class="card-img-top" alt="...">
+      <img src="assets/pexels-thirdman-8942936.jpg" class="card-img-top" alt="Dogs and kennel owner in paddock">
       <div class="card-body">
         <h3 class="card-title">Pet Boarding</h3>
         <p class="card-text"> We can offer dog boarding in our safe and secure heated kennels.  Your dogs will have use of our paddock for regular playtime, group walks, or exercise sessions to keep your pets active and engaged.</p>
@@ -163,14 +168,29 @@
         <label for="phone-number" class="form-label">Phone Number</label>
         <input type="number" class="form-control" id="phone-number" placeholder="123456">
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-8">
         <label for="inputAddress" class="form-label">Address</label>
         <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-8">
         <label for="email" class="form-label">Email</label>
         <input type="email" class="form-control" id="inputAddress2">
       </div>
+      <div class="col-md-6">
+        <label for="Pet details" class="form-label">Pet details</label>
+        <input type="text" class="form-control" id="pet-details">
+      </div>
+      
+       
+        <label for="service-type">Choose a service:</label>
+<select name="service-type" id="service-type">
+
+    <option value="dog-walking">Dog walking</option>
+    <option value="home-pet-sitting">Home pet sitting</option> 
+    <option value="pet-boarding">Pet boarding</option>
+    <option value="grooming-services">Grooming</option>
+  </select>
+
       <div class="col-12">
         <label for="message" class="form-label">Message</label>
         <input type="text" class="form-control" id="message">
@@ -188,12 +208,26 @@
 </div>
 </body>
 
+<footer>
 
+  <h3>Get in touch</h3>
 
+  <div>
+  <span style="font-weight: bold;">Phone</span>
+  <span>0780577293</span>
+  </div>
 
+  <div>
+    <span style="font-weight: bold;">Email</span>
+    <span>klpherridge15@gmail.com</span>
+    </div>
 
-
-
+  <h3>Address</h3>
+  <div>
+    <span style="font-weight: bold;">Address</span>
+    <span>Happy Tails Pet Services <br>15 Cambridge Gardens,<br> Beaufort,Ebbw Vale ,<br>Blaenau Gwent, <br>
+      NP23 5HG</span>
+    </div>
 
 
     </footer>

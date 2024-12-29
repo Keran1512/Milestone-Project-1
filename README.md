@@ -29,14 +29,28 @@ Subheading: At Happy Tails Pet Services, we offer exceptional pet care solutions
 
     CTA button linked to modal form:"Contact us"
 
-Portfoilio (4 sections)
+Our services overview (4 sections)
 
+Service Categories
 
+Organize services into 4 categories: 
+-Dog Walking
+-Pet sitting
+-Pet boarding
+-Pet grooming
 
+Each service section:
 
+-Service name
+-Description of service
+-Call to action button:  Services
+-Images or icons relevant to service
 
+Footer
 
+Contact Information: Address, Phone Number, Email, Social Media links
 
+Gallery page
 
 
 
