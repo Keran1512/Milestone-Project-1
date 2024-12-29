@@ -12,27 +12,31 @@ header {
 /* Main Content */
 body {
     background-color:  lightskyblue;
+    
+
+
+
+/*  Hero image*/
+.hero {
+    width: 200%;
+    height: 300%;
+    position: fixed, center;
+}
+
+
+
+/* Gallery page */
+.img src {
+    width: 50px;
+    line-height: 1em;
+    border-radius: 8px;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
 footer {
     background-color: lightgreen;
-}
-
-/*  Small header*/
-.smallHeader {
-    width: 100%;
-    height: auto;
-}
-
-/* Gallery page */
-#photos img {
-    width:100%;
-    line-height: 1em;
-    
-    
-}
-
-#photos {
-    line-height: 0;
 }
