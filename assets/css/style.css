@@ -3,20 +3,47 @@
 /*global styles */ 
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
 
+/* image colour picker css code based on company logo */
+
+/* CSS HEX 
+--stromboli: #32584d;
+--white-rock: #eae2cf;
+--sandrift: #ac997d;
+--sorrell-brown: #cfba9b;
+--domino: #817159;
+--roman-coffee: #75624d;
+--gulf-stream: #8cbbb1;
+--tradewind: #61afa4;
+--tea: #c2b9ae;
+--dawn: #9e9b95;
+
+*/
+
+
+
+
+
+
 /* Header */
 
 header {
-    background-color: lightgreen;
+   background-color: #61afa4;
     
 }
+ 
+title {
 
-h1, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, body {
+    font-family: Lato, Geneva, Tahoma, sans-serif;
+    color: black;
+
 }
 
 /* Main Content */
 body {
-    background-color:  lightskyblue;
+    background-color: #c2b9ae;
     
 
 
@@ -28,6 +55,11 @@ body {
     position: fixed, center;
 }
 
+/* Services pictures */
+
+#card-img-top {
+    max-height: fit-content;
+}
 
 
 /* Gallery page */
