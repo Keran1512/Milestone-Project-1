@@ -104,13 +104,13 @@ header {
 h1, h2, body {
     font-family: "Lato", Geneva, Tahoma, sans-serif;
     color: black;
+    justify-content: center;
 
 }
 
 /* Main Content */
-body {font-family: poppins, sans-serif;
+body {
     background-color: #c2b9ae;
-
    
 }
     
@@ -121,7 +121,8 @@ body {font-family: poppins, sans-serif;
 .hero {
     width: 250%;
     height: 350%;
-    position: fixed, center;}
+    justify-content: center;
+}
 
 .center {
     display: block;
@@ -147,18 +148,20 @@ body {font-family: poppins, sans-serif;
 .fa-facebook {
     background: #3B5998;
     color: white;
+    justify-content: center;
 }
 
 .fa-instagram  {
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    justify-content: center;
     text-decoration:solid;
   }
 
   .fa-x-twitter  {
     color: black;
+    justify-content: center;
   }
 
 
@@ -175,9 +178,11 @@ h3 {
     text-emphasis color: darkgreen ;
 }
 /* Prices Page */
-#prices
-.table {
-	width: 70%;
+
+.prices.table, th, td{
+
+	border: 1px solid black;
+    border-collapse: collapse;
     background-color: white;
 }
 
