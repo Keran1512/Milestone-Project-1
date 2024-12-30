@@ -10,6 +10,9 @@ header {
     
 }
 
+h1, h2{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Main Content */
 body {
     background-color:  lightskyblue;
@@ -51,9 +54,10 @@ body {
 
 
 /* Prices Page */
-.prices
-table {
+#prices
+.table {
 	width: 70%;
+    background-color: white;
 }
 
 tr {
