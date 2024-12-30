@@ -1,7 +1,9 @@
 
 
 /*global styles */ 
+
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
+
 
 /* image colour picker css code based on company logo */
 
@@ -19,7 +21,66 @@
 
 */
 
-
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
 
 
 
@@ -42,8 +103,9 @@ h1, h2, body {
 }
 
 /* Main Content */
-body {
+body {font-family: poppins, sans-serif;
     background-color: #c2b9ae;
+}
     
 
 
@@ -59,30 +121,22 @@ body {
 
 
 /* Gallery page */
-.img src {
-    width: 50px;
-    line-height: 1em;
-    border-radius: 8px;
-}
-
-#photos {
-    line-height: 0;
-}
 
 
-.form-large  
 
 /* Footer */
 .footer {
     background-color: lightgrey;
 }
 
+
+/* Style all font awesome icons */
 .fa-facebook {
     background: #3B5998;
     color: white;
+}
 
-/* Style all font awesome icons */
-.fa {
+.fa-instagram  {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -90,17 +144,18 @@ body {
     text-decoration:solid;
   }
 
+  .fa-x-twitter  {
+    color: black;
+  }
+
 
 
 /*  Services Page */
-.id=
-table {
-    border: collapse;
-}
 
-td, th {
-    border: 1px solid-black;
-}
+.services.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 
 h3 {
     text-emphasis-position: center;
