@@ -55,11 +55,7 @@ body {
     position: fixed, center;
 }
 
-/* Services pictures */
 
-#card-img-top {
-    max-height: fit-content;
-}
 
 
 /* Gallery page */
@@ -94,6 +90,22 @@ body {
     text-decoration:solid;
   }
 
+
+
+/*  Services Page */
+.id=
+table {
+    border: collapse;
+}
+
+td, th {
+    border: 1px solid-black;
+}
+
+h3 {
+    text-emphasis-position: center;
+    text-emphasis color: darkgreen ;
+}
 /* Prices Page */
 #prices
 .table {
