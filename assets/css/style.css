@@ -7,7 +7,7 @@
 
 header {
     background-color: lightgreen;
-    padding: 0 1rem;
+    
 }
 
 /* Main Content */
@@ -45,3 +45,27 @@ body {
     background-color: lightgrey;
 }
 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+
+/* Prices Page */
+.prices
+table {
+	width: 70%;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr, th, td {
+	text-align: left;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
