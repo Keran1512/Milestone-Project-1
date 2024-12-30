@@ -92,6 +92,12 @@ header {
     
 }
  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #hero { 
     background-image: url(url(../DALL·E 2024-12-28 19.11.52 - A professional and warm logo design for 'Happy Tails Pet Services'. The logo features a friendly dog and a relaxed cat sitting together under a styliz (1).webp);
     background-size: cover;
@@ -111,6 +117,9 @@ h1, h2, body {
 /* Main Content */
 body {
     background-color: #c2b9ae;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
    
 }
     
@@ -171,7 +180,7 @@ body {
 .services.table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
+    flex-wrap: wrap;
 
 h3 {
     text-emphasis-position: center;
@@ -179,11 +188,13 @@ h3 {
 }
 /* Prices Page */
 
-.prices.table, th, td{
+.prices.table, th, td {
 
 	border: 1px solid black;
     border-collapse: collapse;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 tr {
